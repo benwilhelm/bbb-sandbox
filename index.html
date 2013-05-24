@@ -31,6 +31,13 @@
 
   <!--(if target dummy)><!-->
   <script data-main="/app/config" src="/vendor/js/libs/require.js"></script>
+  <script type="text/javascript">
+    require(["modules/monster","modules/greet"], function(monster,greet){
+      monster.saySomethingSpooky() ;
+      monster.goToSleep() ;
+      console.log(greet("Ben")) ;
+    })
+  </script>
   <!--<!(endif)-->
 
   <!--(if target release)>

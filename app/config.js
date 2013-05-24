@@ -10,6 +10,7 @@ require.config({
     // Javascript Folders
     libs: "../vendor/js/libs",
     plugins: "../vendor/js/plugins",
+    modules: "modules",
     
     // Libraries
     jquery: "../vendor/jam/jquery/dist/jquery.min",
